@@ -9,6 +9,9 @@ class Testing_algebra:
           assert maths_functions.Algebra.cube(2) == 8
           assert maths_functions.Algebra.cube(4) == 64
 
+     def test_algebra_sub(self):
+          assert maths_functions.Algebra.sub(3,2) == 1
+
 class Testing_geometry:
      def test_is_triangle(self):
           assert maths_functions.Geometry.is_triangle(120, 40, 20) == True
